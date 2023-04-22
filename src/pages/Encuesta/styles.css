@@ -1,0 +1,26 @@
+#poll{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#poll>*{
+    background: #1f1f1f;
+    border-radius: 4px;
+    padding: 16px;
+    align-items: start;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+.check{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button{
+    background-color: crimson;
+}

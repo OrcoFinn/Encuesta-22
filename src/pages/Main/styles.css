@@ -1,0 +1,48 @@
+#main-header {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 999999999;
+    box-shadow: #0000;
+}
+
+#titulo-header {
+    width: 332px;
+    margin: 0;
+    padding: 16px;
+}
+
+#main-nav {
+    padding: 0.5rem;
+    flex:1;
+}
+
+#main-nav ul {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+}
+
+#main-nav .link{
+    padding: 24px;
+    color: white;
+}
+
+#main-nav .link:hover{
+    background-color: rgb(36, 36, 36);
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#content {
+    max-width: 900px;
+}
